@@ -4,3 +4,53 @@
     --active-element-color:#2196F3;
     --additional-color:#ffffff;
 }
+body{
+    color:var(--main-text-color);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.logo{
+    color:#000000;
+    text-decoration: none;
+}
+.logo>span{
+    color:var(--active-element-color);
+}
+.nav:hover,
+.nav:focus,
+.contact:hover,
+.contact:focus{
+    color:var(--active-element-color);
+}
+h1{
+    color:var(--additional-color);
+}
+.active{
+    color:var(--active-element-color);
+}
+h2, h3{
+    color:var(--title-color);
+}
+
+address{
+    color:var(--additional-color);
+}
+.btn-main{
+color:var(--additional-color);
+background-color: var(--active-element-color);
+}
+.btn-secondary{
+    color:var(--title-color);
+}
+.btn-secondary:hover{
+    color:var(--additional-color);
+    background-color:var(--active-element-color);
+}

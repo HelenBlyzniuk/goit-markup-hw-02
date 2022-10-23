@@ -145,7 +145,7 @@ font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-        
+       
     text-align: center;
     letter-spacing: inherit;
 }
@@ -159,9 +159,14 @@ font-family: inherit;
      font-weight: 700;
      font-size: 18px;
      line-height:2;
-        /* identical to box height, or 200% */
-    
-        letter-spacing: 0.06em;
+ 
+     letter-spacing: 0.06em;
+ }
+
+ .work>p{
+   
+        font-size: 16px;
+        line-height: 1.9;
  }
 
 

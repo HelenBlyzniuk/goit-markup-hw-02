@@ -3,6 +3,7 @@
     --title-color:#212121;
     --active-element-color:#2196F3;
     --additional-color:#ffffff;
+    --footer-color:#2F303A;
 }
 body{
     color:var(--main-text-color);
@@ -24,7 +25,7 @@ a{
 }
 
 .logo{
-    color:#000000;
+    color:var(--active-element-color);
     text-decoration: none;
 
     font-family: 'Raleway',sans-serif;;
@@ -34,7 +35,11 @@ a{
     letter-spacing: 0.03em;
 }
 .logo>span{
-    color:var(--active-element-color);
+    color:var(--title-color);
+}
+
+.logo>.footer-span{
+    color:var(--additional-color);
 }
 
 .nav:hover,
@@ -74,6 +79,10 @@ h2, h3{
 
 address{
     color:var(--additional-color);
+}
+
+.hello, footer{
+    background-color: var(--footer-color);
 }
 .btn-main{
 color:var(--additional-color);
@@ -130,13 +139,30 @@ font-family: inherit;
 
 .btn-secondary{
     color:var(--title-color);
+
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+        
+    text-align: center;
+    letter-spacing: inherit;
 }
 
 .btn-secondary:hover{
     color:var(--additional-color);
     background-color:var(--active-element-color);
 }
-
+ .work>h3{
+   
+     font-weight: 700;
+     font-size: 18px;
+     line-height:2;
+        /* identical to box height, or 200% */
+    
+        letter-spacing: 0.06em;
+ }
 
 
 

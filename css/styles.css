@@ -6,7 +6,7 @@
 }
 body{
     color:var(--main-text-color);
-    
+
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -26,24 +26,50 @@ a{
 .logo{
     color:#000000;
     text-decoration: none;
+
+    font-family: 'Raleway',sans-serif;;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 .logo>span{
     color:var(--active-element-color);
 }
+
 .nav:hover,
 .nav:focus,
 .contact:hover,
 .contact:focus{
     color:var(--active-element-color);
 }
+
+nav{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+
 h1{
     color:var(--additional-color);
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+     
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
+
 .active{
     color:var(--active-element-color);
 }
+
 h2, h3{
     color:var(--title-color);
+
 }
 
 address{
@@ -52,11 +78,67 @@ address{
 .btn-main{
 color:var(--additional-color);
 background-color: var(--active-element-color);
+
+font-family: inherit;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 1.88;
+    
+ text-align: center;
+ letter-spacing: 0.06em;
 }
+
+.services-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.about>h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+}
+
+.our-team>h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+       
+}
+
+.person>h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.2;
+     
+    text-align: center;
+}
+
+.person>p{
+    font-size: 16px;
+    line-height: 1.19;
+    
+    text-align: center;    
+}
+
+
 .btn-secondary{
     color:var(--title-color);
 }
+
 .btn-secondary:hover{
     color:var(--additional-color);
     background-color:var(--active-element-color);
 }
+
+
+
+
+
+

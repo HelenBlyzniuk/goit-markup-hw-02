@@ -11,7 +11,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
+    
     letter-spacing: 0.03em;
 }
 
@@ -47,22 +47,11 @@ a{
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.02em;
     
         color: var(--main-text-color);
 }
-
-.contacts .footer{
-    color:rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-     letter-spacing: 0.03em;
-}
-
 
 
 .nav:hover,
@@ -104,6 +93,18 @@ h2, h3{
 address{
     color:var(--additional-color);
     font-style: normal;
+    line-height: 1.71;
+    font-weight: 400;
+}
+
+.contact-footer{
+    color: rgba(255, 255, 255, 0.6);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
 }
 
 .hello, footer{
@@ -175,6 +176,7 @@ font-family: inherit;
        
     text-align: center;
     letter-spacing: inherit;
+    border-style: none;
 
     cursor:pointer;
 }

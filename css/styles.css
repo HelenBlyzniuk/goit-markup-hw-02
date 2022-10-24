@@ -50,6 +50,7 @@ a{
 }
 
 nav{
+        color:var(--title-color);
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -79,6 +80,7 @@ h2, h3{
 
 address{
     color:var(--additional-color);
+    font-style: normal;
 }
 
 .hello, footer{
@@ -121,7 +123,7 @@ font-family: inherit;
        
 }
 
-.person>h3{
+.person h3{
     font-weight: 500;
     font-size: 16px;
     line-height:1.2;
@@ -129,7 +131,7 @@ font-family: inherit;
     text-align: center;
 }
 
-.person>p{
+.person p{
     font-size: 16px;
     line-height: 1.19;
     
@@ -138,10 +140,12 @@ font-family: inherit;
 
 
 .btn-secondary{
+    
     color:var(--title-color);
+    background-color: #ffffff;
 
-    font-family: inherit;
-    font-style: inherit;
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -156,7 +160,7 @@ font-family: inherit;
     color:var(--additional-color);
     background-color:var(--active-element-color);
 }
- .work>h3{
+ .work h3{
    
      font-weight: 700;
      font-size: 18px;
@@ -165,7 +169,7 @@ font-family: inherit;
      letter-spacing: 0.06em;
  }
 
- .work>p{
+ .work p{
    
         font-size: 16px;
         line-height: 1.9;

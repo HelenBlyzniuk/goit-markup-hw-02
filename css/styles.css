@@ -46,7 +46,6 @@ a{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
-        font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
     
@@ -64,7 +63,6 @@ a{
 nav{
         color:var(--title-color);
         font-weight: 500;
-        font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
@@ -94,15 +92,11 @@ address{
     color:var(--additional-color);
     font-style: normal;
     line-height: 1.71;
-    font-weight: 400;
+    
 }
 
 .contact-footer{
     color: rgba(255, 255, 255, 0.6);
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
 }
@@ -125,7 +119,6 @@ font-family: inherit;
 
 .services-title {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
